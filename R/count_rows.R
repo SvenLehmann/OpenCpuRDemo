@@ -1,10 +1,11 @@
-#' Takes a matrix with 3 columns. Returns number of elements
+#' Takes a matrix. Returns number of elements
 #'
 #' @export
 #' @param matrx your matrix. Required.
 #' 
-library(jsonlite)
+
 count_rows <- function(json){
+  library(jsonlite)
   matrix <- fromJSON(json)
   nrow(matrix)
 }
