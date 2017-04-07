@@ -1,11 +1,6 @@
-Package: appdemo
+Package: CountRows
 Type: Package
 Title: OpenCPU Demo App
 Version: 0.4
-Date: 2013-12-05
-Author: Jeroen Ooms
-Maintainer: Jeroen <jeroenooms@gmail.com>
-Description: This package is an example of an OpenCPU App. It demonstrates
-    basic functionality of the API and Javascript library.
-License: Apache2
-LazyData: true
+Date: 2017-04-07
+Author: Sven Lehmann
