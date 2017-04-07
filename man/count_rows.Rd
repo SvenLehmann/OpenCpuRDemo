@@ -1,13 +1,12 @@
-\name{hello}
-\alias{hello}
-\title{Hello World}
+\name{count_rows}
+\alias{count_rows}
+\title{Count Rows}
 \usage{
-  hello(myname = "")
+  count_rows(matrix)
 }
 \arguments{
-  \item{myname}{your name. Required.}
+  \item{matrix}{a matrix. Required.}
 }
 \description{
   Basic hello world function to be called from the demo app
 }
-
