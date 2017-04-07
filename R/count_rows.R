@@ -2,6 +2,9 @@
 #'
 #' @export
 #' @param matrx your matrix. Required.
-count_rows <- function(matrix){
+#' 
+library(jsonlite)
+count_rows <- function(json){
+  matrix <- fromJSON(json)
   nrow(matrix)
 }
