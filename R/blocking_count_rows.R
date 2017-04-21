@@ -4,7 +4,7 @@
 #' @param matrix your matrix. Required.
 #' 
 
-count_rows <- function(json, time){
+blocking_count_rows <- function(json, time){
   library(jsonlite)
   matrix <- fromJSON(json)
   Sys.sleep(time)
