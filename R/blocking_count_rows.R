@@ -4,8 +4,9 @@
 #' @param matrix your matrix. Required.
 #' 
 
-count_rows <- function(json, metadata){
+count_rows <- function(json, time){
   library(jsonlite)
   matrix <- fromJSON(json)
+  Sys.sleep(time)
   nrow(matrix)
 }
