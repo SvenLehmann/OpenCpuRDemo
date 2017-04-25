@@ -7,5 +7,10 @@
 count_rows <- function(json){
   library(jsonlite)
   matrix <- fromJSON(json)
+
+  fileConn<-file("output.txt")
+  writeLines(c("Hello","World"), fileConn)
+  close(fileConn)
+
   nrow(matrix)
 }
