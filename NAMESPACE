@@ -1,3 +1,4 @@
 export(count_rows)
 export(hello)
 export(blocking_count_rows)
+export(multiply)

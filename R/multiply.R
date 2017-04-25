@@ -4,8 +4,6 @@
 #' @param matrix your matrix. Required.
 #' 
 
-count_rows <- function(json){
-  library(jsonlite)
-  matrix <- fromJSON(json)
-  nrow(matrix)
+multiply <- function(previous, factor){
+  previous * factor
 }
